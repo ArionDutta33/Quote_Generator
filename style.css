@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-image: url("./library.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header {
+    font-family:
+
+
+        "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5vw;
+    border: none;
+    border-radius: 2rem;
+    width: 44vw;
+    height: 4.5vw;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.textarea {
+    display: flex;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30vw;
+    width: 70vw;
+    padding: 3vw 3vw;
+    background-color: white;
+    font-size: 3vw;
+    line-height: 2;
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem;
+    font-family:
+
+
+        "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.personality {
+    align-self: center;
+    font-family:
+
+
+        "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2vw;
+    color: red;
+
+}
+
+.next-quote {
+    height: 4vw;
+    width: 10vw;
+    font-size: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2vw;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2rem;
+    padding: .5vw 2vw;
+}
